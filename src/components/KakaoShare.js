@@ -1,11 +1,10 @@
-// KakaoShareButton.js
 import React, { useEffect } from 'react';
 
 const KakaoShare = () => {
   useEffect(() => {
-    window.Kakao.init('YOUR_KAKAO_API_KEY'); // 여기에 카카오 API 키를 입력합니다.
+    window.Kakao.init('YOUR_KAKAO_API_KEY'); // 카카오 API 키
     
-    // SDK가 초기화되었는지 확인
+    // SDK가 초기화 확인
     if (window.Kakao.isInitialized()) {
       // 공유 버튼 생성
       window.Kakao.Link.createDefaultButton({

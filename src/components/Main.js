@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css'; // CSS 파일을 추가해야 합니다.
+import './Main.css'; 
 import { Link } from 'react-router-dom';
 
 import mainCoffeeImage from '../assets/images/main-coffee.png';
