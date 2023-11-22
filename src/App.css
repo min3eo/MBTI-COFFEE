@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: 'Binggrae';
+  src: url('Binggrae.ttf') format('truetype');
+}
+
+/* 웹사이트에 Binggrae 폰트 적용 */
+body {
+  font-family: 'Binggrae', sans-serif;
+}
